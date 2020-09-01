@@ -10,3 +10,9 @@ Pawels Cracked, Joke (Pawel From 3 Years Ago)
 README.txt, Done.
 Chatspys, Done.
 Sprintspeeds, Done.
+
+< - >
+Free admin
+https://pastebin.com/BkzaNnQp
+https://v3rmillion.net/showthread.php?tid=1033113
+"Amnesia Streets Admin"
