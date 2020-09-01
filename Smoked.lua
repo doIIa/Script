@@ -7794,6 +7794,14 @@ end
 end
 end)
 ---------------------------------------
+ game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+    
+if (string.lower(msg) == "+citizens") then
+				
+loadstring(game:HttpGet("https://pastebin.com/raw/WVS8kfme", true))()
+end
+end)
+---------
 
 print([[
          Cmds
@@ -7810,6 +7818,7 @@ Right Click - Unlock Door.
 G - Ws 90. (Nvm)
 -
 +hotkeys - Shows Hotkeys In Cool White Gui.
++citizens - Opens Up Best Script.
 +aidez - Opens Up Mega Combat v3. Known As Aidez.
 +korx - Trash Script But Has RunSpeed. Code Is "keithiscool"
 +psycho - Opens Up Decent Most Legit Script.
