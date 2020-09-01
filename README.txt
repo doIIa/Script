@@ -21,4 +21,10 @@ https://v3rmillion.net/showthread.php?tid=1033113
 Free whitelist system
 https://v3rmillion.net/showthread.php?tid=849080
 Kinda Secure
+
+< - >
+YOULOSE Feloops.
+loadstring(game:HttpGet('https://raw.githubusercontent.com/isthatjack/feloop/master/antife.lua', true))();
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/isthatjack/feloop/master/feloop.lua'),true))()
+
 < - >
