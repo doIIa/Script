@@ -8,5 +8,5 @@ Splash, Discontinued.
 Smoked, In Progress.
 Pawels Cracked, Joke (Pawel From 3 Years Ago)
 README.txt, Done.
-Chatspy, In Progress.
-
+Chatspys, Done.
+Sprintspeeds, Done.
