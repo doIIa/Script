@@ -1,5 +1,5 @@
 --[[
-Splash, the Prison script.
+Smoked, the Prison script.
 Creators of Smoked are: dollar#0007 and lilfatherfigure#5863 Thanks to bypass.
 This script will be updated every 2 days. So expect new stuff everday.
 Rip. VelyZena You Were A Good Friend.
