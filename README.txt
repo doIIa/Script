@@ -28,5 +28,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/isthatjack/feloop/mas
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/isthatjack/feloop/master/feloop.lua'),true))()
 https://github.com/isthatjack/ui/blob/master/venyxlib.lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dollarxxxxxxxxxx/Script/master/YOULOSE_CYADMIN.lua", true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/dollarxxxxxxxxxx/Script/master/EspScript.lua'),true))()
 
 < - >
