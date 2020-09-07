@@ -1,0 +1,37 @@
+--This script reveals ALL hidden messages in the default chat
+--chat "+spy" to toggle!
+--by dollar#0001!
+enabled = true
+--if true will check your messages too
+spyOnMyself = false
+--if true will chat the logs publicly (fun, risky)
+public = true --this has to BE ON TRUE OR YOU CANT BYPASS CHAT it makes /e visible to everyon
+--if true will use /me to stand out
+publicItalics = true
+--customize private logs
+privateProperties = {
+    Color = Color3.fromRGB(0,255,255); 
+    Font = Enum.Font.SourceSansBold;
+    TextSize = 18;
+}
+--////////////////////////////////////////////////////////////////
+local StarterGui = game:GetService("StarterGui")
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local saymsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest")
+local getmsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("OnMessageDoneFiltering")
+local instance = (_G.chatSpyInstance or 0) + 1
+_G.chatSpyInstance = instance
+ 
+ 
+for _,p in ipairs(Players:GetPlayers()) do
+    p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+end
+Players.PlayerAdded:Connect(function(p)
+    p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+end)
+privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+local chatFrame = player.PlayerGui.Chat.Frame
+chatFrame.ChatChannelParentFrame.Visible = true
+chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
